@@ -999,7 +999,7 @@ def get_race_weekends_by_place(place):
                 })
     return weekends
 
-def get_all_unique_race_names(start_year=2010, end_year=2025): #update as necessary
+def get_all_unique_race_names(start_year=2018, end_year=2025): #update as necessary
     "Return a list of all unique race locations"
     enable_cache()
     race_names=set()
