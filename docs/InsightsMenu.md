@@ -126,7 +126,7 @@ InsightsMenu (QMainWindow)
 ### Key Components
 
 **`create_category_section(category_name, insights)`**
-- Creates a collapsible category with multiple insight buttons
+- Creates a category section with multiple insight buttons
 - `insights`: List of tuples `(name, description, callback)`
 - Each tuple becomes a clickable button
 
